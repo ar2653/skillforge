@@ -115,12 +115,12 @@ const ResumePage = () => {
             color: #ff00ff;
           }
           100% {
-            color: #ffff00;
+            color: #d49563;
           }
         }
 
         .disco-text {
-          animation: disco 2s infinite;
+          animation: disco 20s infinite;
         }
       `}</style>
     </div>
