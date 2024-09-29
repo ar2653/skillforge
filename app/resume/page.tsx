@@ -66,40 +66,6 @@ const ResumePage = () => {
           Next
         </Link>
       </div>
-<<<<<<< Updated upstream
-
-      {/* Error Message */}
-      {error && (
-        <div className="text-red-600 mt-4">
-          {error}
-        </div>
-      )}
-
-      <style jsx>{`
-        @keyframes disco {
-          0% {
-            color: #ff0000;
-          }
-          25% {
-            color: #00ff00;
-          }
-          50% {
-            color: #0000ff;
-          }
-          75% {
-            color: #ff00ff;
-          }
-          100% {
-            color: #d49563;
-          }
-        }
-
-        .disco-text {
-          animation: disco 20s infinite;
-        }
-      `}</style>
-=======
->>>>>>> Stashed changes
     </div>
   );
 };

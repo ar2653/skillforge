@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-<<<<<<< Updated upstream
 // next.config.js
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -13,11 +12,3 @@ module.exports = {
     unoptimized: true,
   },
 };
-=======
-const nextConfig = {
-  output: "export",  // <=== enables static exports
-  reactStrictMode: true,
-};
-
-module.exports = nextConfig;
->>>>>>> Stashed changes
