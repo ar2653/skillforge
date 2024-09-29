@@ -74,9 +74,8 @@ export default function Features() {
               <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Resume Scanning
               </h3>
-              <p className="text-gray01-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-gray01-200/65 text-center">
+                Let your resume be processed against millions in your desired field.
               </p>
             </article>
             <article>
@@ -92,9 +91,8 @@ export default function Features() {
               <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Building new skills
               </h3>
-              <p className="text-gray02-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-gray02-200/65 text-center">
+                Discover your weaknesses and build skills from the best tailored certification for you.
               </p>
             </article>
             <article>
@@ -113,9 +111,8 @@ export default function Features() {
               <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Advanced Search
               </h3>
-              <p className="text-gray01-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-gray01-200/65 text-center">
+                Filter to what you want to improve more on.
               </p>
             </article>
             <article>
@@ -139,9 +136,8 @@ export default function Features() {
               <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Curated pathways
               </h3>
-              <p className="text-gray01-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-gray01-200/65 text-center">
+                Discover a jounrey that will guide you to the best job.
               </p>
             </article>
             <article>
@@ -161,8 +157,7 @@ export default function Features() {
                 Unlimited scans
               </h3>
               <p className="text-gray01-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                No fee! You can create an account and keep a log of topics you have or need and can always upload your latest resume.
               </p>
             </article>
             <article>
@@ -182,8 +177,7 @@ export default function Features() {
                 Missing Skills
               </h3>
               <p className="text-gray01-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Skills commonly found in your job goal will be shown, if you have a skill that is needed but not in your resume, we will remind you!
               </p>
             </article>
           </div>

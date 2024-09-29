@@ -8,4 +8,7 @@ module.exports = {
   // If deploying to GitHub Pages, set the correct base path
   basePath: isProd ? '/skillforge' : '',
   assetPrefix: isProd ? '/skillforge/' : '',
+  images: {
+    unoptimized: true,
+  },
 };

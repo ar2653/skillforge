@@ -21,7 +21,7 @@ export default function Header() {
               <li>
                 <button
                   onClick={() => loginWithRedirect()}
-                  className="btn-sm relative bg-gradient-to-b from-purple-800 to-orange-800/100 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.pink.800),theme(colors.gray02.800),theme(colors.yellow.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
+                  className="btn-sm relative bg-gradient-to-b from-purple-800 to-orange-800/100 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.pink.800),theme(colors.blue.800),theme(colors.yellow.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
                 >
                   Sign In
                 </button>
@@ -33,7 +33,7 @@ export default function Header() {
               <li>
                 <button
                   onClick={() => logout()}
-                  className="btn-sm relative bg-gradient-to-b from-purple-800 to-orange-800/100 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.pink.800),theme(colors.gray02.800),theme(colors.yellow.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
+                  className="btn-sm relative bg-gradient-to-b from-purple-800 to-orange-800/100 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.pink.800),theme(colors.blue.800),theme(colors.yellow.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
                 >
                   Sign Out
                 </button>
