@@ -10,7 +10,7 @@ export default function HeroHome() {
               className="animate-[gradient_3.5s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.yellow.200),theme(colors.pink.200),theme(colors.blue.50),theme(colors.purple.300),theme(colors.orange.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-SummerFavourite text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              Skills that Shine, Gaps combine
+              Skills that Shine, Gaps combined
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
