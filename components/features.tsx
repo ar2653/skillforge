@@ -156,7 +156,7 @@ export default function Features() {
               <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Unlimited scans
               </h3>
-              <p className="text-gray01-200/65">
+              <p className="text-gray01-200/65 text-center">
                 No fee! You can create an account and keep a log of topics you have or need and can always upload your latest resume.
               </p>
             </article>
@@ -176,7 +176,7 @@ export default function Features() {
               <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Missing Skills
               </h3>
-              <p className="text-gray01-200/65">
+              <p className="text-gray01-200/65 text-center">
                 Skills commonly found in your job goal will be shown, if you have a skill that is needed but not in your resume, we will remind you!
               </p>
             </article>
