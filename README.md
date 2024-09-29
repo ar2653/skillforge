@@ -29,7 +29,7 @@ SkillForge aims to simplify the job-hunting process by giving instant feedback o
 
 - **Frontend**: Next.js
 - **Backend**: Python (FastAPI)
-- **Database**: MongoDB
+- **Database**: Dictionary and List
 - **Resume Parsing**: PDF Parser library
 - **Authentication**: Auth0
 
