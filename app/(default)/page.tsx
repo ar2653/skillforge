@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Skill Forge",
-  description: "Page description",
+  description: "Skill Forge: Skills that Shine, Gaps combine",
 };
 
 import PageIllustration from "@/components/page-illustration";
