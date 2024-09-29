@@ -24,7 +24,7 @@ export default function HeroHome() {
                 <div data-aos="fade-up" data-aos-delay={400}>
                   <Link href="/resume" passHref>
                       <span className="btn group mb-4 w-full bg-gradient-to-t from-pink-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto relative inline-flex items-center">
-                        Find our Match
+                        Find your Match
                         <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                           -&gt;
                         </span>
