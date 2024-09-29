@@ -10,30 +10,30 @@ const inter = Inter({
   display: "swap",
 });
 
-const nacelle = localFont({
+const SummerFavourite = localFont({
   src: [
     {
-      path: "../public/fonts/nacelle-regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/nacelle-italic.woff2",
-      weight: "400",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/nacelle-semibold.woff2",
+      path: "../public/fonts/SummerFavourite-ARLr6.ttf",
       weight: "600",
       style: "normal",
     },
     {
-      path: "../public/fonts/nacelle-semibolditalic.woff2",
+      path: "../public/fonts/SummerFavourite-ARLr6.ttf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/SummerFavourite-ARLr6.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/SummerFavourite-ARLr6.ttf",
       weight: "600",
       style: "italic",
     },
   ],
-  variable: "--font-nacelle",
+  variable: "--font-SummerFavourite",
   display: "swap",
 });
 
@@ -50,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${nacelle.variable} bg-gray-950 font-inter text-base text-gray-200 antialiased`}
+        className={`${inter.variable} ${SummerFavourite.variable} bg-gray-950 font-inter text-base text-gray-200 antialiased`}
       >
         <AuthProvider>
           <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">

@@ -34,15 +34,15 @@ export default function Features() {
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.25),transparent)1] md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
-            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
-              <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
+            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-pink-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-purple-200/50">
+              <span className="inline-flex bg-gradient-to-r from-pink-500 to-blue-200 bg-clip-text text-transparent">
                 For Students and Job Seekers
               </span>
             </div>
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+            <h2 className="animate-[gradient_3.5s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.yellow.200),theme(colors.purple.200),theme(colors.blue.50),theme(colors.pink.300),theme(colors.orange.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-SummerFavourite text-3xl font-semibold text-transparent md:text-4xl">
               Your Guided Future
             </h2>
-            <p className="text-lg text-indigo-200/65">
+            <p className="text-lg text-gray01-200/65">
               Upload your resume to receive a comprehensive
               report on your greatest and weakest skills. Discover the best resource to land your dream job.
             </p>
@@ -60,7 +60,7 @@ export default function Features() {
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-yellow-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -71,17 +71,17 @@ export default function Features() {
                   d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                 />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Resume Scanning
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-gray01-200/65">
                 Track progress across custom flows for your team. Find the right
                 balance for the user, privacy and security.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-orange-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -89,17 +89,17 @@ export default function Features() {
                 <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Building new skills
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-gray02-200/65">
                 Track progress across custom flows for your team. Find the right
                 balance for the user, privacy and security.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-pink-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -110,17 +110,17 @@ export default function Features() {
                   d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
                 />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Advanced Search
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-gray01-200/65">
                 Track progress across custom flows for your team. Find the right
                 balance for the user, privacy and security.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-purple-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -136,17 +136,17 @@ export default function Features() {
                 />
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Curated pathways
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-gray01-200/65">
                 Track progress across custom flows for your team. Find the right
                 balance for the user, privacy and security.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -157,17 +157,17 @@ export default function Features() {
                 />
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Unlimited scans
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-gray01-200/65">
                 Track progress across custom flows for your team. Find the right
                 balance for the user, privacy and security.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-yellow-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -178,10 +178,10 @@ export default function Features() {
                 />
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-SummerFavourite text-[1rem] font-semibold text-gray02-200">
                 Missing Skills
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-gray01-200/65">
                 Track progress across custom flows for your team. Find the right
                 balance for the user, privacy and security.
               </p>

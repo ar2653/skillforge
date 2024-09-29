@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["var(--font-inter)", "sans-serif"],
-        nacelle: ["var(--font-nacelle)", "sans-serif"],
+        SummerFavourite: ["var(--font-SummerFavourite)", "sans-serif"],
       },
       fontSize: {
         xs: ["0.8125rem", { lineHeight: "1.5384" }],
@@ -39,6 +39,15 @@ module.exports = {
           "10%": { opacity: ".8" },
           "20%": { top: "100%", transform: "scaleY(10)", opacity: "0" },
           "100%": { top: "100%", transform: "scaleY(1)", opacity: "0" },
+        },
+        colors: {
+          Gray01: '#161925',
+          Gray02: '#434c71',
+          Blue: '#058789',
+          yellow: '#e7b34b',
+          orange: '#b64116',
+          pink: '#ed18bf',
+          purple: '#6d00af',
         },
         gradient: {
           to: { "background-position": "200% center" },
