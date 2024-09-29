@@ -62,7 +62,7 @@ const ResultsPage = () => {
           <div className="flex flex-wrap gap-2">
             <span className="bg-red-400 px-3 py-1 rounded text-white">
               React, Angular, Vue.js
-            </span>
+            </span> 
             <span className="bg-red-400 px-3 py-1 rounded text-white">
               Front-end Development
             </span>
